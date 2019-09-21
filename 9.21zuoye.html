@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<script>
+			var wh=prompt('请输入卡号');
+			var wd=prompt('请输入密码');
+			var wz=10000000000;
+			if (wh==123456789 && wd==123456) {
+				alert('账户余额为10000000000');
+			} else{
+				alert('请输入正确的卡号和密码');
+			}
+			var wq=prompt('请输入取款金额');
+			if (wq<=wz) {
+				alert('卡内剩余'+(wz-wq));
+			} else{
+				alert('您的余额不足');
+			}
+		</script>
+	</body>
+</html>
